@@ -49,7 +49,7 @@
     
 }
 
-.logo , .login , .nav-bar {
+.login , .nav-bar {
     color: white;
     font-size: 22px;
     height: 50px;
@@ -61,8 +61,8 @@
     text-align: right;
 }
 
-.logo , .login{
-    flex-basis: 20%;
+.login{
+    flex-basis: 25%;
     
 }
 
@@ -184,7 +184,7 @@ h1 {
     width: 40%;
 }
 
-.content-blue > img {
+.section-gray .content-blue > img {
     padding-left: 100px;
 }
 
