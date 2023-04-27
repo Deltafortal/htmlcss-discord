@@ -1,0 +1,227 @@
+/* CSS Reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom proprieties */
+
+:root {
+    --blue-background: #3161e0;
+    --gray-button: #23272a;
+}
+
+/* Utils */
+
+.flex {
+    display: flex;
+    flex-flow: row;
+}
+
+.container {
+    margin: auto;
+    width: 1300px;
+}
+
+/* Page bar */
+
+.page-bar{
+    background-color: var(--blue-background);
+    height: 70px;
+    align-items: center;
+}
+
+
+.bar {
+    align-items: center;
+    
+}
+
+.logo , .login , .nav-bar {
+    color: white;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
+.login {
+    text-align: right;
+}
+
+.logo , .login{
+    flex-basis: 20%;
+    
+}
+
+.login > a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+
+.nav-bar {
+    text-align: center;
+    flex-basis: 60%;
+}
+
+.nav-bar > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+}
+
+
+
+
+/* Jumbotron */
+
+.front {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 50%;
+    height: 70%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.jumbotron > p {
+    font-size: 25px;
+    padding-top: 90px;
+}
+
+.buttons{
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+.download {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    background-color: white;
+}
+
+.open-discord {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--gray-button);
+}
+
+
+
+/* sections */
+
+.section-white , .section-gray {
+    height: 500px;
+}
+
+
+.section-white {
+    background-color: white;
+}
+
+
+.section-gray {
+    background-color: gray;;
+}
+
+.special-section {
+    height: 800px;
+    background-color: gray;
+}
+
+
+/* Contents */
+
+.content-blue {
+    background-color: lightblue;
+    height: 400px;
+    width: 40%;
+}
+
+
+.content-pink {
+    background-color: pink;
+    height: 400px;
+    width: 20%;
+}
+
+.content-green {
+    background-color: green;
+    height: 700px;
+    width: 60%;
+}
+
+section.flex {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(46, 46, 46);
+
+}
+
+
+.footer-start {
+    justify-content: center;
+}
+
+
+
+.footer-pink {
+    margin: 20px 0px;
+    background-color: pink;
+    height: 500px;
+    width: 20%;
+    
+}
+
+.footer-blue {
+    margin: 20px 0px;
+    background-color: aqua;
+    height: 500px;
+    width: 10%;
+    border: 2px solid white;
+}
+
+
+
+
+.footer-end {
+    justify-content: center;
+    align-content: flex-end;
+    
+}
+
+
+.endbar {
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 50%;
+    height: 200px;
+}
