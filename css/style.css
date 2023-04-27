@@ -11,6 +11,7 @@
 :root {
     --blue-background: #3161e0;
     --gray-button: #23272a;
+    --bg-gray: #f6f6f6;
 }
 
 /* Utils */
@@ -24,6 +25,12 @@
     margin: auto;
     width: 1300px;
 }
+
+.waves {
+    display:block;
+    color: var(--bg-gray)
+}
+
 
 /* Page bar */
 
@@ -130,10 +137,14 @@ h1 {
 
 
 
+
+
+
 /* sections */
 
 .section-white , .section-gray {
-    height: 500px;
+    height: 900px;
+    align-items: center;
 }
 
 
@@ -143,7 +154,7 @@ h1 {
 
 
 .section-gray {
-    background-color: gray;;
+    background-color: var(--bg-gray)
 }
 
 .special-section {
@@ -155,17 +166,29 @@ h1 {
 /* Contents */
 
 .content-blue {
-    background-color: lightblue;
-    height: 400px;
+    height: 600px;
     width: 40%;
 }
 
+/* Pink */
 
 .content-pink {
-    background-color: pink;
-    height: 400px;
+    padding-top: 25px;
+    height: 600px;
     width: 20%;
 }
+
+.content-pink > h2 {
+    font-size: 50px;
+}
+
+
+.content-pink > p {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+/* Green */ 
 
 .content-green {
     background-color: green;
