@@ -161,7 +161,7 @@ h1 {
 }
 
 .special-section {
-    height: 1000px;
+    height: 1500px;
     background-color: var(--bg-gray);
 }
 
@@ -223,6 +223,27 @@ section.flex {
 }
 
 
+.download-alternative {
+    margin-top: 90px;
+    flex-direction: column;
+
+}
+
+
+.download-alternative > h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.download-alternative > a {
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #8ea1e1;
+}
 
 
 
